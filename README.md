@@ -1,4 +1,4 @@
-# HACKATON
+# HACKATON - POKER VENOM
 https://hackathon.venom.network/
 
 A salute to the blockchain developers Venom and the judges of the competition would first like to thank: https://github.com/qwadratic
