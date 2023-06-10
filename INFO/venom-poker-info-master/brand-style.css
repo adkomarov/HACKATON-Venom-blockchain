@@ -1,0 +1,17 @@
+:root {
+    /* Pie chart colors */
+    --game-rewards-pie: #03264e;
+    --stake-pie: #053162;
+    --game-events-pie: #40015a;
+    --team-pie: #51197c;
+    --airdrop-pie: #7a0aaa;
+    --presale-pie: #7e09c9;
+
+    /* Fonts */
+    --main-font: 'Kanit', sans-serif;
+
+    /* Main colors */
+    --black: #000;
+    --gray: #1a1a1a;
+}
+

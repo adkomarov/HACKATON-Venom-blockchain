@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="description" content="Venom Poker"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <meta name="theme-color" content="#000000" />
+        <title>Venom Poker</title>
+        <link rel="icon" type="image/x-icon" href="/assets/images/brand-icon.ico"/>
+        <link href="assets/fontawesome/css/fontawesome.min.css" rel="stylesheet"/>
+        <link href="assets/fontawesome/css/brands.min.css" rel="stylesheet"/>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css"/>
+        <link rel="stylesheet" href="brand-style.css"/>
+    </head>
+    <body>
+        <header class="p-2 d-flex flex-row align-items-center justify-content-around">
+            <div class="d-flex flex-row gap-2 align-items-center">
+                <!--suppress CheckImageSize -->
+                <img width="50" src="assets/images/brand-icon.png" alt="VENOM_POKER"/>
+                <span class="fw-bold text-uppercase">VENOM POKER</span>
+            </div>
+            <div>
+                <nav class="d-flex gap-3">
+                    <a class="text-uppercase" href="#tokenomic">Tokenomic</a>
+                    <a class="text-uppercase" href="#road-map">Road map</a>
+                    <a class="text-uppercase" href="#faq">FAQ</a>
+                    <a class="text-uppercase" href="/ido">IDO</a>
+                </nav>
+            </div>
+            <div class="d-flex flex-row gap-1">
+                <a href="https://twitter.com/venom_poker"><i class="fa-brands fa-twitter"></i></a>
+                <a href="https://discord.gg/TjRnAVpgJ9"><i class="fa-brands fa-discord"></i></a>
+            </div>
+        </header>
+        <main>
+            <section id="intro" class="d-flex align-items-center justify-content-center">
+                <div class="d-flex flex-column align-items-center">
+                    <span class="text-uppercase">Hi, we are</span>
+                    <span class="display-1 text-uppercase fw-bold">Venom Poker</span>
+                    <span class="text-uppercase">We have collected here the basic information that will help you to understand the project</span>
+                </div>
+            </section>
+            <section id="tokenomic" class="d-flex justify-content-center align-items-center">
+                <div id="tokenomic-panel" class="rounded-4 p-5">
+                    <div>
+                        <h1 class="text-uppercase">Tokenomic $VP</h1>
+                        <span>Max supply 100.000.000</span>
+                    </div>
+                    <div class="d-flex flex-row align-items-center gap-5">
+                        <div>
+                            <canvas id="tokenomic-chart"></canvas>
+                        </div>
+                        <table>
+                            <tr>
+                                <th class="text-uppercase">Total distribution</th>
+                                <th class="text-uppercase">Token amount</th>
+                                <th class="text-uppercase">Percentage</th>
+                            </tr>
+                            <tr style="--marker: var(--game-rewards-pie)">
+                                <td>Game rewards</td>
+                                <td>50.000.000</td>
+                                <td>50%</td>
+                            </tr>
+                            <tr style="--marker: var(--stake-pie)">
+                                <td>Stake</td>
+                                <td>15.000.000</td>
+                                <td>15%</td>
+                            </tr>
+                            <tr style="--marker: var(--game-events-pie)">
+                                <td>Game events</td>
+                                <td>10.000.000</td>
+                                <td>10%</td>
+                            </tr>
+                            <tr style="--marker: var(--team-pie)">
+                                <td>Team</td>
+                                <td>10.000.000</td>
+                                <td>10%</td>
+                            </tr>
+                            <tr style="--marker: var(--airdrop-pie)">
+                                <td>Airdrop</td>
+                                <td>10.000.000</td>
+                                <td>10%</td>
+                            </tr>
+                            <tr style="--marker: var(--presale-pie)">
+                                <td>Presale</td>
+                                <td>5.000.000</td>
+                                <td>5%</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </section>
+            <section id="road-map" class="d-flex justify-content-center flex-column align-items-center">
+                <h1 class="text-uppercase">Road map</h1>
+                <img id="road-map-image" src="assets/images/road-map.png" alt="Road map"/>
+            </section>
+            <section id="faq" class="d-flex justify-content-center flex-column align-items-center">
+                <h1>FAQ</h1>
+                <div class="d-flex flex-row justify-content-around gap-2">
+                    <div class="faq-container">
+                        <div class="d-flex align-items-center justify-content-center p-3">
+                            <span class="display-6 fw-bold text-uppercase">Airdrop</span>
+                        </div>
+                        <div>
+                            <p>
+                                We believe in the truth of the truth of the saying "no airdrop = no community".
+                                That is why we have allocated 10.000.000 tokens to create a community.
+                                And here is the long-awaited distribution of tokens:
+                            </p>
+                            <ul>
+                                <li>1 year - 5.000.000 tokens (50%)</li>
+                                <li>2 year - 2.500.000 tokens (25%)</li>
+                                <li>3 year - 1.250.000 tokens (12.5%)</li>
+                                <li>4 year - 625.000 tokens (6.25%)</li>
+                                <li>5 year - 312.500 tokens (3.125%)</li>
+                                <li>6 year - 312.500 tokens (3.125%)</li>
+                            </ul>
+                            <p>During the first year, a huge part of the tokens will be issued, we will distribute them as follows:</p>
+                            <ul>
+                                <li>zealy - 3.500.000 tokens (70%)</li>
+                                <li>galxe - 1.000.000 tokens (20%)</li>
+                                <li>strange events airdrop - 500.000 tokens (10%)</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="faq-container">
+                        <div class="d-flex align-items-center justify-content-center p-3">
+                            <span class="display-6 fw-bold text-uppercase">Presale</span>
+                        </div>
+                        <div>
+                            <p>
+                                5.000.000 tokens have been allocated for the presale.
+                                We have not yet decided on which platform it will take place.
+                                More details to come when Venom goes mainnet.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="d-flex flex-row p-4 align-items-center justify-content-center gap-3">
+            <a href="https://twitter.com/venom_poker"><i class="display-6 fa-brands fa-twitter"></i></a>
+            <a href="https://discord.gg/TjRnAVpgJ9"><i class="display-6 fa-brands fa-discord"></i></a>
+        </footer>
+        <script src="https://cdn.jsdelivr.net/npm/chart.js@4.3.0/dist/chart.umd.min.js"></script>
+        <script src="tokenomic-chart.js"></script>
+    </body>
+</html>

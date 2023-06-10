@@ -1,0 +1,87 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    min-height: 100vh;
+}
+
+* {
+    color: #ffffff;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    background: var(--black);
+    z-index: 100000;
+}
+
+a {
+    color: #ffffff;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+#intro {
+    background-image: url("assets/images/money.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#tokenomic {
+    background-image: url("assets/images/background.png");
+    background-repeat: repeat;
+    background-size: contain;
+}
+
+#tokenomic-panel {
+    backdrop-filter: blur(10px);
+    background-color: rgba(176, 176, 176, 0.11);
+}
+
+#road-map {
+    background-image: url("assets/images/background.png");
+    background-repeat: repeat;
+    background-size: contain;
+}
+
+#road-map-image {
+    height: 150vh;
+}
+
+#faq, footer {
+    background: var(--black);
+    height: fit-content !important;
+}
+
+li {
+    list-style: none;
+}
+
+tr {
+    position: relative;
+}
+
+table {
+    border-spacing: 5em 5em;
+}
+
+tr::before {
+    content: "";
+    position: absolute;
+    height: 80%;
+    top: 10%;
+    width: 10px;
+    left: -15px;
+    background: var(--marker);
+    border-radius: 5px;
+}
+
+.faq-container {
+    background: var(--gray);
+    width: 30%;
+    border-radius: 20px;
+    padding: 30px;
+}
