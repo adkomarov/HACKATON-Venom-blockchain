@@ -24,3 +24,18 @@ discord: https://discord.gg/TjRnAVpgJ9
 questN: https://app.questn.com/VenomPoker
 
 guild: https://guild.xyz/venompoker
+
+for developers:
+
+launch of the first contract:
+
+npx locklift run -s ./scripts/1-deploy-token-root.ts -n venom_testnet
+
+running the second contract:
+
+npx locklift run -s ./scripts/2-deploy-tokensale.ts -n venom_testnet
+
+site run:
+
+npm install
+npm start
